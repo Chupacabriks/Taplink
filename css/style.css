@@ -1,2 +1,118 @@
-* {box-sizing: border-box;
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(206, 168, 173, 0.88);
+  padding: 20px;
+  .kurale-regular {
+    font-family: "Kurale", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+}
+.page-wrapper {
+overflow: hidden;
+max-width: 428px;
+margin: auto;
+background: rgb(249, 233, 233);
+box-shadow: 0px 0px 21.3px 12px rgba(0, 0, 0, 0.25);
+border-radius: 57px;
+
+}
+.container {
+  max-width: 330px;
+  margin: auto;
+}
+.header {
+  color: rgb(255, 255, 255);
+padding-top: 31px;
+padding-left: 77px;
+padding-right: 77px;
+padding-bottom: 175px;
+background: url('../img/header-bg.png') no-repeat center / cover ;
+border-radius: 0px 0px 90px 90px;
+}
+
+.hello {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 47px;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  color:#FFFFFF; /* Цвет текста */
+  -webkit-text-stroke: 1px #F4B442; /* Толщина и цвет обводки */
+  text-shadow: 1px 1px 2px black;
+}
+
+.user {
+margin-top: -49px;
+text-align: center;
+border-radius: 57px;
+background: rgb(163, 194, 155);
+padding-bottom: 15px;
+
+
+}
+.user-avatar {
+margin-top: -102px;  
+object-fit: cover;
+border-radius: 50%;
+border: 7px solid rgb(163, 194, 155);
+}
+
+.user-name {
+  margin-top: 13px;
+  margin-bottom: 3px;
+font-family: Kurale;
+font-size: 24px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+}
+.user-description{
+  /* мастерица */
+  color: rgb(97, 94, 94);
+  font-family: Kurale;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 3px;
+}
+.card {
+  border-radius: 57px;
+  background: rgb(163, 194, 155);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+.buttons {
+  display: flex;
+  align-items:center;
+justify-content: center;
+}
+.button {
+  height: 50px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 57px;
+  background: rgb(77, 118, 161);
+  width: 265px;
+  height: 50px;
+  left: 81px;
+  top: 449px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 24px 33px 24px 33px;
+
+
+
+
 }
