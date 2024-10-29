@@ -87,7 +87,7 @@ text-align: center;
   border-radius: 57px;
   background: rgb(163, 194, 155);
   margin-top: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 1px;
   padding: 20px;
 }
 .buttons {
@@ -111,8 +111,43 @@ justify-content: center;
 align-items: center;
 gap: 10;
 padding: 24px 33px 24px 33px;
-
-
-
-
 }
+.about {
+  color: rgb(30, 30, 30);
+font-family: Kurale;
+font-size: 24px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+width: 295px;
+height: 222px;
+left: 64px;
+top: 512px;
+display: flex;
+flex-direction: row;
+align-items: center;
+text-shadow: 1px 1px 4px #00000025;
+margin-bottom: 132px;
+}
+.imgdog1 {
+  border: 1px solid rgba(254, 236, 236, 0.37);
+width: 182.03px;
+height: 154px;
+left: 48.61px;
+top: 721px;
+margin-top: -60.27px;
+margin-bottom: 0px;
+margin-left: -16px;
+}
+.imgdog2 {
+  border: 1px solid rgba(255, 255, 255, 0.37);
+  width: 162.16px;
+  height: 197.55px;
+  left: 404.31px;
+  top: 706.59px;
+  margin-top: -124px;
+  margin-right: -25px;
+  margin-left: 98px;
+}
+
